@@ -4,7 +4,7 @@
   --grey:#767676;
   --lightGrey:#F3F3F3; 
 }
-body{
+body {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -171,15 +171,16 @@ p {
   font-size: 0.875em;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  body{
-    font-size: 14px;
+@media screen and (max-width: 575px) {
+  body {
+    font-size: 10px;
   }
   .nav-flex {
     padding: 15px 2px;
   }
   .card-form{
-    top: 600px;
+    top: 400px;
+    width: 390px;
   }
   .card-form-flex{
     height: 100px;
@@ -188,21 +189,30 @@ p {
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 640px;
+    height: 250px;
   }
   .bloque-parrafo p{
-    width: 500px;
+    width: 370px;
   }
   .bloqueCards{
-    height: 1700px;
+    height: 1430px;
   }
-  .title-flex{
-    height: auto;
+  .card-destino{
+    width: 440px;
+  }
+  .card-paragraph{
+    font-size: 1.2em;
+  }
+  .img-htl{
+    width:440px;
+  }
+  .img-color{
+    width: 125px;
   }
   
 }
-@media (min-width: 768px) and (max-width: 992px){
-  body{
+@media screen and (min-width: 576px) and (max-width: 766px) {
+  body {
     font-size: 15px;
   }
   .card-form{
@@ -226,5 +236,10 @@ p {
   .nav-flex{
     padding: 35px;
   }
-  
 }
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
