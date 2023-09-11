@@ -171,7 +171,7 @@ p {
   font-size: 0.875em;
 }
 
-@media screen and (max-width: 575px) {
+@media (width <= 575px) {
   body {
     font-size: 10px;
   }
@@ -179,7 +179,7 @@ p {
     padding: 15px 2px;
   }
   .card-form{
-    top: 400px;
+    top: 370px;
     width: 390px;
   }
   .card-form-flex{
@@ -211,12 +211,13 @@ p {
   }
   
 }
-@media screen and (min-width: 576px) and (max-width: 766px) {
+@media (576px <= width < 766px) {
   body {
     font-size: 15px;
   }
   .card-form{
-    top:560px;
+    top: 600px;
+    width:400px;
   }
   .bloque-parrafo-flex {
     display: flex;
@@ -224,9 +225,10 @@ p {
     align-items: end;
     height: 580px;
   }
-  .bloque-parrafo p{
-    width: 540px;
-  }
+  .bloque-parrafo p {
+    width: 470px;
+    font-size: 1.2em;
+}
   .card-form-flex{
     height: 100px;
   }
@@ -237,9 +239,68 @@ p {
     padding: 35px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media (767px <= width < 991px ){
   body {
     font-size: 16px;
   }
+  .bloque-parrafo-flex {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 580px;
+  }
+  .card-form-flex{
+    height: 100px;
+  }
+  .card-form{
+    width: 560px;
+    top:560px;
+  }
+  .bloqueCards {
+    height: 1700px;
 }
+}
+@media (992px <= width < 1199px) {
+  body {
+    font-size: 17px;
+  }
+  .bloque-parrafo-flex {
+    display: flex;
+    justify-content: center;
+  }
+  .card-form-flex{
+    height: 100px;
+  }
+  .card-form{
+    width: 560px;
+    top:560px;
+  }
+  .bloqueCards {
+    height: 900px;
+}
+}
+@media (width >= 1200px) {
+  body {
+    font-size: 18px;
+  }
+  .bloque-parrafo-flex {
+    display: flex;
+    justify-content: center;
+  }
+  .card-form-flex{
+    height: 100px;
+  }
+  .card-form{
+    width: 560px;
+    top:560px;
+  }
+  .bloqueCards {
+    height: 900px;
+}
+.rowParagraph {
+  padding: 30px;
+}
+}
+
+
 
