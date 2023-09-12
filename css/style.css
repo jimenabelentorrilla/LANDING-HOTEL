@@ -180,7 +180,7 @@ p {
   }
   .card-form{
     top: 370px;
-    width: 390px;
+    width: 370px;
   }
   .card-form-flex{
     height: 100px;
@@ -195,22 +195,26 @@ p {
     width: 370px;
   }
   .bloqueCards{
-    height: 1430px;
+    height: 1200px;
   }
   .card-destino{
-    width: 440px;
+    width: 320px;
   }
   .card-paragraph{
     font-size: 1.2em;
   }
   .img-htl{
-    width:440px;
+    width:320px;
   }
   .img-color{
     width: 125px;
   }
-  
+  .title-flex h1 {
+    font-size: 2.625em;
+  }
 }
+  
+
 @media (576px <= width < 766px) {
   body {
     font-size: 15px;
