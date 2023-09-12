@@ -179,8 +179,8 @@ p {
     padding: 15px 2px;
   }
   .card-form{
-    top: 370px;
-    width: 370px;
+    top: 325px;
+    width: 325px;
   }
   .card-form-flex{
     height: 100px;
@@ -192,7 +192,8 @@ p {
     height: 250px;
   }
   .bloque-parrafo p{
-    width: 370px;
+    width: 300px;
+    font-size: 1.5100em;
   }
   .bloqueCards{
     height: 1200px;
@@ -207,11 +208,20 @@ p {
     width:320px;
   }
   .img-color{
-    width: 125px;
+    width: 100px;
   }
   .title-flex h1 {
-    font-size: 2.625em;
+    font-size: 2.125em;
   }
+  .title-flex{
+    align-items: center;
+  }
+  .size-logo2 {
+    width: 130px;
+}
+.size-logo1 {
+  width: 90px;
+}
 }
   
 
